@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 class GradeCalculatorTest { 
 	@Test
 	void testTotal() { 
-		assertEquals(235, GradeCalculator.calculateTotal(75, 68, 82)); 
+		assertEquals(225, GradeCalculator.calculateTotal(75, 68, 82)); 
 	} 
 	@Test 
 	void testAverage() { 
